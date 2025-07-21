@@ -4,7 +4,7 @@ This is a responsive and visually appealing landing page for **Manglam PinkWest*
 
 ### 🔗 Live Demo
 
-👉 [Visit Live Site](https://your-deployment-url.com)  
+👉 [Visit Live Site](https://pinkwest-manglam.netlify.app/)  
 > _Replace the above URL with your actual deployed site URL (e.g., Vercel, Netlify, GitHub Pages, etc.)_
 
 ---
