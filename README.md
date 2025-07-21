@@ -1,12 +1,82 @@
-# React + Vite
+## 🏙️ PinkWest Aesthetic Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and visually appealing landing page for **Manglam PinkWest**, built using ReactJS. It includes smooth animations, an interactive image gallery, sticky contact form, custom fonts, and amenities showcase with carousels.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit Live Site](https://your-deployment-url.com)  
+> _Replace the above URL with your actual deployed site URL (e.g., Vercel, Netlify, GitHub Pages, etc.)_
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+/public
+  └── images/
+  └── fonts/
+
+/src
+  ├── components/
+  ├── App.jsx
+  ├── App.css
+  ├── index.css
+  ├── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/pinkwest-landing.git
+cd pinkwest-landing
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Your project will be running locally at `http://localhost:5173` (if using Vite).
+
+---
+
+## 🔧 Features
+
+- 🎥 Background video hero section
+- 🎨 Custom fonts from `Brother 1816` family
+- 📷 Interior & exterior image carousels
+- 🧾 Sticky contact form (with validation)
+- 🧭 Smooth scroll animations (AOS, GSAP)
+- 📱 Fully responsive design
+- 🔁 Amenities slider (React Slick)
+
+---
+
+## 🛠️ Built With
+
+- **ReactJS**
+- **GSAP** for animations
+- **AOS** for scroll effects
+- **React Slick** for carousels
+- **Vite** (optional, based on structure)
+
+---
+
+## 📦 Scripts
+
+| Command         | Purpose                |
+|----------------|------------------------|
+| `npm run dev`   | Start local dev server |
+| `npm run build` | Production build       |
+| `npm run preview` | Preview production build |
